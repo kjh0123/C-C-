@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main(void) {
+    int n;
+    
+    while (1) {
+        scanf("%d", &n);
+        
+        if (n == 0) {
+            break;
+        } else if (n > 0) {
+            printf("positive number\n");
+        } else {
+            printf("negative number\n");
+        }
+    }
+    
+    return 0;
+}
